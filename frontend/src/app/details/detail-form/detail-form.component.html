@@ -1,0 +1,37 @@
+<div class="shadow border p-4">
+    <h2 class="text-xl font-semibold">New Task</h2>
+  <form [formGroup]="userFrom">
+    <div class="flex flex-wrap">
+        <mat-form-field class="w-full">
+            <mat-label>Assigned To</mat-label>
+            <input type="text" matInput fromControlName="assingedTo" />
+            
+          </mat-form-field>
+          <mat-form-field class="w-full">
+            <mat-label>Status</mat-label>
+            <input type="text" matInput fromControlName="progressstatus" />
+            
+          </mat-form-field>
+          <mat-form-field class="w-full">
+            <mat-label>Due Date</mat-label>
+            <input type="date" matInput fromControlName="dueDate" />
+            
+          </mat-form-field>
+          <mat-form-field class="w-full">
+            <mat-label>Priority</mat-label>
+            <input type="text" matInput  fromControlName="priority" />
+            
+          </mat-form-field>
+          <mat-form-field class="w-full">
+            <mat-label>Description</mat-label>
+            <input type="text" matInput fromControlName="comments"/>
+            
+          </mat-form-field>
+
+    </div>
+    <div class="flex justify-center">
+        <button mat-raised-button color="primary" (click)="addDetail()">Save</button>
+        <button mat-raised-button color="warn">Cancel</button>
+    </div>
+  </form>
+</div>

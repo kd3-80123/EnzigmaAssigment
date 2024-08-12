@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    tr{
+        width: 100%;
+    }
+    th,td{
+        padding: 1rem;
+        border: 1px solid grey;
+    }
+}
+.btn {
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .pagination .btn {
+    margin-left: 5px;
+  }

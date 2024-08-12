@@ -1,0 +1,819 @@
+{
+	"info": {
+		"_postman_id": "4db37dbd-983e-4402-a4a7-463e027f58a2",
+		"name": "Enzigma",
+		"description": "Testing the Curd Operation using postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31451057"
+	},
+	"item": [
+		{
+			"name": "localhost:4550/detail/66b77044f832375c1ccefc4f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b77044f832375c1ccefc4f",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b77044f832375c1ccefc4f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user3\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-08-30\",\r\n    \"priority\" : \"medium\",\r\n    \"comments\": \"very nice\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user2\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-04-30\",\r\n    \"priority\" : \"low\",\r\n    \"comments\": \"very\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1 new\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good quality\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail/66b75873d5f2b63a5f12bbe0",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail",
+						"66b75873d5f2b63a5f12bbe0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\":  \"2018-03-29\",\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\": 16042024,\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4550/details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\": 16042024,\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4550/details",
+					"host": [
+						"localhost"
+					],
+					"port": "4550",
+					"path": [
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:27017/details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\": 16042024,\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:27017/details",
+					"host": [
+						"localhost"
+					],
+					"port": "27017",
+					"path": [
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:27017/details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"assingedTo\": \"user1\",\r\n    \"progressstatus\": \"Completed\",\r\n    \"dueDate\": 16042024,\r\n    \"priority\" : \"high\",\r\n    \"comments\": \"good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:27017/details",
+					"host": [
+						"localhost"
+					],
+					"port": "27017",
+					"path": [
+						"details"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

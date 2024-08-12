@@ -1,0 +1,49 @@
+<div class="shadow p-4 border">
+    <div class="flex justify-between p-4" >
+        <h2>Tasks</h2>
+        <div>
+            <button mat-raised-button color="primary" routerLink="/details/add">New Task</button>
+            <button mat-raised-button color="primary">Refresh</button>
+            <input type="text" placeholder="Search"  /> 
+        </div>
+    </div>
+    <table >
+        <thead >
+            <tr>
+                <th></th>
+                <th>Assigned To</th>
+                <th>Status</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Comments</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody >
+            @for (detail of details; track $index) {
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>{{ detail.assingedTo }}</td>
+                    <td>{{ detail.progressstatus}}</td>
+                    <td>{{ detail.dueDate }}</td>
+                    <td>{{ detail.priority }}</td>
+                    <td>{{ detail.comments }}</td>
+                    <td>
+                        <div class="options-menu" >
+                          <button mat-raised-button color="accent" >Edit</button>
+                          <button mat-raised-button color="warn">Delete</button>
+                        </div>
+                      </td>
+                </tr>
+                }
+        
+        </tbody>
+    </table>
+    <div class="pagination">
+        <button mat-raised-button color="primary">First</button>
+        <button mat-raised-button color="primary">Prev</button>
+        <span>1</span>
+        <button mat-raised-button color="primary">Next</button>
+        <button mat-raised-button color="primary">Last</button>
+      </div>
+</div>
